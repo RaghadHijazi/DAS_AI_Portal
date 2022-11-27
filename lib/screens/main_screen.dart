@@ -1,5 +1,13 @@
 
+import 'package:ai_models/screens/side_menu.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import '../controllers/dashboard_prov.dart';
+import '../controllers/menu_controller.dart';
+import '../responsive.dart';
+import 'dashboard_screen.dart';
 
 class MainScreen extends StatelessWidget {
   @override

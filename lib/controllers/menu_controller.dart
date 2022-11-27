@@ -2,6 +2,8 @@
 import 'package:ai_models/screens/dashboard_screen.dart';
 import 'package:flutter/material.dart';
 
+import '../screens/test_creen.dart';
+
 
 class MenuController extends ChangeNotifier {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
@@ -23,10 +25,10 @@ class MenuController extends ChangeNotifier {
   int indexprov = 0;
 
   List<Widget> navPages = [
-    DashboardScreen(),
-    DashboardScreen(),
-    DashboardScreen(),
-    DashboardScreen(),
+    TestScreen(),
+    TestScreen(),
+    TestScreen(),
+    TestScreen(),
     // NotificationsPage(),
     // NewCustomersPage(),
     // RolesManagerPage(),
